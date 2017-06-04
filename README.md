@@ -1,9 +1,2 @@
-# Notes by subjects
-* [Angular](/angular)
-* [APIs](/APIs)
-* [django](/django)
-* [docker](/docker)
-  * [Persistent Data](/docker/persistentData)
-* [git](/git)
-* [ionic](/ionic)
-* [vagrant](/vagrant)
+# Wiki to organize notes, cheatsheets, etc
+* [Check the notes](/https://github.com/juancho85/my_notes/wiki)
