@@ -1,0 +1,33 @@
+npm install ionic cordova -g
+ionic start appName --v2
+
+https://ionicframework.com/docs/v2/setup/installation/
+
+Information about the ionic cli
+helps: https://ionicframework.com/docs/v2/cli/
+
+Project templates:
+ionic start PROJECT_NAME blank --v2
+tabs: to start with a basic tabs navigation 
+sidemenu: to start with a basic sidemenu navigation
+tutorial: to start with the official Ionic 2 tutorial setup
+
+Buttons: https://ionicframework.com/docs/v2/components/#buttons
+Lists: https://ionicframework.com/docs/v2/components/#lists
+The Grid System: https://ionicframework.com/docs/v2/components/#grid
+Gestures: https://ionicframework.com/docs/v2/components/#gestures
+
+Desplegar a dispositivo
+ionic platform add android (añade la plataforma)
+ionic build android (--prod)
+ionic run android --device (para lanzar en dispositivo)
+Más info:
+https://ionicframework.com/docs/v2/setup/deploying
+https://cordova.apache.org/docs/en/latest/guide/platforms/android/
+https://cordova.apache.org/docs/en/latest/guide/platforms/ios/
+
+Más información
+Navbar: https://ionicframework.com/docs/v2/api/components/navbar/Navbar/
+ViewController: https://ionicframework.com/docs/v2/api/navigation/ViewController/
+Configuration: https://ionicframework.com/docs/v2/api/config/Config/
+Platform: https://ionicframework.com/docs/v2/api/platform/Platform/

@@ -1,0 +1,15 @@
+1) Install dependencies
+npm install --save angular2-goole-maps
+2) put component in the template
+<sebm-google-map></sebm-google-map>
+3) set a height in the styles
+sebm-google-map {
+    height: 250px;
+  }
+4)Define yout Api key in the app.module imports
+imports: [
+    IonicModule.forRoot(MyApp),
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyDBo69qEjj0GTVwFVz3p9VJRmtEqKWSgcQ'
+    })
+  ],

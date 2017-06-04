@@ -1,0 +1,27 @@
+#login to mySql console
+mysql -u USERNAME -p
+
+#create database
+create database DBNAME
+
+#set UTF-8 charset
+alter database DBNAME character set utf8 collate utf8_general_ci;
+
+#use database
+use DBNAME
+
+#List tables
+show tables
+
+#Create table example
+create table users (
+  username varchar(256),
+  password varchar(256),
+  enabled boolean
+);
+
+#Insert into table example
+insert into users (username, password, enabled) values ('user', 'user', true);
+
+#check table description
+describe TABLENAME

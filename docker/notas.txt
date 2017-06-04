@@ -1,0 +1,8 @@
+Mount a volume (from the host machine)
+
+-v {host absolute path}:{container path}
+
+Ejemplo: no parece que funcione mi técnica para remplazar el path para que respete el formato esperado por docker
+docker container run -d --name nginx2 -p 8080:80 -v $($pwd -replace "D:", "//d" -replace "\\", "/"):/usr/share/nginx/html nginx
+
+docker container run -d --name nginx -p 80:80 -v //d/tuts/docker-bretFisher/udemy-docker-mastery/dockerfile-sample-2:/usr/share/nginx/html nginx

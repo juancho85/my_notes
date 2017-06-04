@@ -1,0 +1,11 @@
+Teniendo vagrant y virtualbox instalados en la máquina. Ver http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/installation/devstack/install_devstack.html
+
+1. export OPENEDX_RELEASE="open-release/ficus.3" (ver versiones disponibles: https://openedx.atlassian.net/wiki/display/DOC/Open+edX+Releases)
+2. descargar script de instalación:
+	curl -OL https://raw.github.com/edx/configuration/$OPENEDX_RELEASE/util/install/install_stack.sh
+3. Ejecutarlo:
+	bash install_stack.sh devstack
+	
+Reload (trans cambio de config en vagrant file)
+vagrant reload --provision
+https://www.vagrantup.com/docs/cli/reload.html
