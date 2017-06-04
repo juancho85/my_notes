@@ -1,2 +1,8 @@
 # Notes by subjects
-[Angular](/angular)
+*[Angular](/angular)
+*[APIs](/APIs)
+*[django](/django)
+*[docker](/docker)
+*[git](/git)
+*[ionic](/ionic)
+*[vagrant](/vagrant)
